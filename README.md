@@ -36,18 +36,18 @@ export CHART_IMG_API_KEY="your_api_key_here"
 
 **STDIO Mode (Claude Desktop)**
 ```bash
-chart-mcp-server
+python3 -m src.chart_mcp_python.main
 ```
 
 **HTTP Mode (Universal)**
 ```bash
-chart-mcp-http
+python -m src.chart_mcp_python.http_server
 # Server runs on: http://localhost:3001
 ```
 
 **SSE Mode (Real-time)**
 ```bash
-chart-mcp-sse
+python3 -m src.chart_mcp_python.sse_server
 # Server runs on: http://localhost:3002
 ```
 
