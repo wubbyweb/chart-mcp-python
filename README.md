@@ -41,7 +41,7 @@ python3 -m src.chart_mcp_python.main
 
 **HTTP Mode (Universal)**
 ```bash
-python -m src.chart_mcp_python.http_server
+python3 -m src.chart_mcp_python.http_server
 # Server runs on: http://localhost:3001
 ```
 
