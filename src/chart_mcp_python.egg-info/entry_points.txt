@@ -1,0 +1,4 @@
+[console_scripts]
+chart-mcp-http = chart_mcp_python.http_server:main
+chart-mcp-server = chart_mcp_python.main:main
+chart-mcp-sse = chart_mcp_python.sse_server:main
